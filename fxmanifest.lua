@@ -1,17 +1,20 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
+
+author 'MrMRVLS'
+description 'Simple crosshair.'
+version '1.1.0'
 
 client_scripts {
-    'client.lua'
+    'client/*.lua'
 }
 
-ui_page 'index.html'
+ui_page 'ui/index.html'
 
 files {
-    'crosshair.png',
-    'index.html',
-    'script.js',
-    'style.css'
+    'ui/crosshair.png',
+    'ui/index.html',
+    'ui/script.js',
+    'ui/style.css'
 }
-
-lua54 'yes'
